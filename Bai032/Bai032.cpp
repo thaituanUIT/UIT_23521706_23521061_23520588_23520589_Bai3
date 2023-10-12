@@ -36,14 +36,14 @@ void Xuat(float a[], int n)
     cout<<setw(3)<<setprecision(3)<<a[i];
 }
 
-void LietKe(float a[], int n, int z)
+void LietKe(float a[], int n)
 {
     for (int i=0; i<=n-1; i++)
       for (int j=0; j<=n-1; j++)
-        for (int k=0; k<=k-1; k++)
-          if(i!=j && j!=k && i!=k 
-            a[i] == a[j] + a[k])
-            {
+        for (int k=0; k<=n-1; k++)
+          if(i!=j && j!=k && i!=k
+           a[i] == a[j] + a[k])
+            
                 cout << "("<<a[i]<<","<<a[j];
                 cout << ","<<a[z]<<")"<<endl;
             }
